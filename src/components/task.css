@@ -1,0 +1,62 @@
+
+.tasks-box{
+  padding: 10px;
+  border-radius: 4px;
+  background: #fff;
+  color: black !important;
+  margin-bottom: 10px;
+}
+.tasks-box .task-head{
+  display: flex;
+}
+.tasks-box .task-head .task-checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.tasks-box:has(.task-head input:checked) {
+  background: transparent;
+  text-decoration: line-through;
+  color: #999 !important;
+}
+.tasks-box .task-head .task-text {
+  margin: 0px 0px 0px 10px;
+  padding: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tasks-box .task-details {
+  margin-top: 10px; 
+  display: flex;
+  margin-left: 40px;
+}
+
+.tasks-box .task-details .task-description {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.tasks-box .date-and-dlt{
+  display: flex;
+  margin-top: 10px;
+  font-weight: 500;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+
+.tasks-box .date-and-dlt .dlt-btn {
+  background-color: #ff6347;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+
+.tasks-box .date-and-dlt .dlt-btn:hover {
+  background-color: #999;
+}

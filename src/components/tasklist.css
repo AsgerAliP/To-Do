@@ -1,0 +1,42 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.inputs .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs .input-group .input-task,
+.inputs .input-group .description-task,
+.inputs .input-group .date-picker {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: none;
+}
+
+.inputs .input-group .description-task {
+  color: #fff;
+}
+
+.inputs .add-btn {
+  background-color: #29c129;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.inputs .add-btn:hover {
+  background-color: #000000;
+}
+
+.line {
+  margin-top: 20px;
+  height: 3px;
+  background: #ffffff;
+}

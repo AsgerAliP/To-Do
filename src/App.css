@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  
+}
+
+.box{
+  background: red;
+  padding: 1.5rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.list{
+  padding: 1.0rem;
+}
